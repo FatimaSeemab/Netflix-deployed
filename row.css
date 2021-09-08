@@ -1,0 +1,39 @@
+/* .row {
+    /* width: 100%; 
+} */
+
+.row__poster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row__posters {
+    /* max-height: 100px; */
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.large_row {
+    object-fit: contain;
+    width: 100%;
+    max-height: 120px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.large_row:hover {
+    transform: scale(1.09);
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none
+}
+
+.row__poster:hover {
+    transform: scale(1.08);
+}
